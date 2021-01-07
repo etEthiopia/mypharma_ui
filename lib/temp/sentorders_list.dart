@@ -53,3 +53,43 @@ var sentOrdersList = [
     "status": "Seen"
   },
 ];
+
+// "items": [
+//       "Lorem ipsum dolor sit amet",
+//       "consectetur adipisicing elit",
+//       "sed do eiusmod tempor incididunt ut labore et dolore magna wirl aliqua",
+//       "Ut enim ad minim veniam",
+//       "quis nostrud exercitation ullamco laboris nisinuli"
+//     ],
+
+var individualOrdersList = [
+  {
+    "items": "Lorem ipsum dolor sit amet",
+    "price": "400 ETB",
+    "to": "Mulugeta Medics Ltd",
+    "date": "11/06/2020",
+    "status": "Order Seen"
+  },
+  {
+    "items": "consectetur adipisicing elit",
+    "price": "400 ETB",
+    "to": "Mulugeta Medics Ltd",
+    "date": "11/06/2020",
+    "status": "Order Seen"
+  },
+  {
+    "items":
+        "sed do eiusmod tempor incididunt ut labore et dolore magna wirl aliqua",
+    "price": "400 ETB",
+    "to": "Mulugeta Medics Ltd",
+    "date": "11/06/2020",
+    "status": "Order Seen"
+  },
+  {
+    "items": "quis nostrud exercitation ullamco laboris nisinuli",
+    "price": "400 ETB",
+    "to": "Mulugeta Medics Ltd",
+    "date": "11/06/2020",
+    "status": "Order Seen"
+  },
+];

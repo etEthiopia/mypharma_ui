@@ -18,6 +18,7 @@ import 'package:chat_app/screens/search/search_product.dart';
 import 'package:chat_app/screens/shop/cart_items.dart';
 import 'package:chat_app/screens/shop/my_cart.dart';
 import 'package:chat_app/screens/shop/product_size.dart';
+import 'package:chat_app/screens/shop/received_orders.dart';
 import 'package:chat_app/screens/shop/sent_orders.dart';
 import 'package:chat_app/theme/colors.dart';
 import 'package:chat_app/theme/font.dart';
@@ -57,6 +58,7 @@ class MyApp extends StatelessWidget {
           '/cart': (context) => MyCart(),
           '/cart_list': (context) => MyCartList(),
           '/sent_orders': (context) => SentOrders(),
+          '/received_orders': (context) => ReceivedOrders(),
         }
         //home: MyHomePage(title: 'Flutter Demo Home Page'),
         );
@@ -244,7 +246,9 @@ class _MyHomePageState extends State<MyHomePage> {
                     _sizedbox(),
                     _menuBtn("My Cart", "cart_list"),
                     _sizedbox(),
-                    _menuBtn("Sent Orders", "sent_orders")
+                    _menuBtn("Sent Orders", "sent_orders"),
+                    _sizedbox(),
+                    _menuBtn("Received Orders", "received_orders")
                   ],
                 ),
               ),
